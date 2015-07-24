@@ -1,0 +1,10 @@
+.foo {
+  color: green; }
+  .foo .bar {
+    font-family: sans-serif; }
+  .foo .baz {
+    color: black; }
+
+/* No files to import found in molecules//* */
+/* No files to import found in organisms//* */
+/* No files to import found in layouts//* */

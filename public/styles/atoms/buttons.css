@@ -1,0 +1,6 @@
+.foo {
+  color: green; }
+  .foo .bar {
+    font-family: sans-serif; }
+  .foo .baz {
+    color: black; }
