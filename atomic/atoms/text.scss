@@ -1,0 +1,43 @@
+@import '../variables/fonts';
+/** Default **/
+// *{
+// 	font-family: $default-font;
+// 	font-size: $default-text;
+// 	font-weight: $normal;
+// }
+
+/** Headers **/
+// h1{
+// 	font-family: $cta-font;
+// 	font-size: $header1;
+// 	font-weight: $extra-bold;
+// }
+// h2{
+// 	font-family: $cta-font;
+// 	font-size: $header2;
+// 	font-weight: $extra-bold;
+// }
+// h3{
+// 	font-family: $cta-font;
+// 	font-size: $header3;
+// 	font-weight: $extra-bold;
+// }
+
+/**Default tag fonts**/
+// p, div, span{
+// 	font-size: $normal-text;
+// }
+
+/** Special text **/
+
+.cta{
+	font-family: $cta-font;
+	font-size: $cta-size;
+	font-weight: $extra-bold;
+	letter-spacing: $cta-spacing;
+}
+
+.sub-text{
+	font-size: $sub-text;
+	font-weight: $light;
+}

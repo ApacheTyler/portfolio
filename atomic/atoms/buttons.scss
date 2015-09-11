@@ -1,9 +1,100 @@
-.foo{
-  color: green;
-  .bar{
-    font-family: sans-serif;
-  }
-  .baz{
-    color: black;
-  }
+@import '../variables/colors';
+
+.button{
+	span{
+		color: $primary-grey;
+	}
+}
+
+.md-raised{
+	&.purple{
+		background-color: $button-purple !important;
+	}
+	&.pink{
+		background-color: $button-pink !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+	&.blue{
+		background-color: $button-blue !important;
+	}
+	&.yellow{
+		background-color: $selected-yellow !important;
+	}
+	&.green{
+		background-color: $button-green !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+}
+
+.md-fab{
+	&.purple{
+		background-color: $button-purple !important;
+	}
+	&.pink{
+		background-color: $button-pink !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+	&.blue{
+		background-color: $button-blue !important;
+	}
+	&.yellow{
+		background-color: $selected-yellow !important;
+	}
+	&.green{
+		background-color: $button-green !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+}
+
+.nav{
+	.md-accent{
+		&.blue{
+			span{
+				color: $faded-blue;
+			}
+			&.selected{
+				span{
+					color: $selected-blue;
+				}
+			}
+		}
+		&.pink{
+			span{
+				color: $faded-pink;
+			}
+			&.selected{
+				span{
+					color: $selected-pink;
+				}
+			}
+		}
+		&.yellow{
+			span{
+				color: $faded-yellow;
+			}
+			&.selected{
+				span{
+					color: $selected-yellow;
+				}
+			}
+		}
+		&.green{
+			span{
+				color: $faded-green;
+			}
+			&.selected{
+				span{
+					color: $selected-green;
+				}
+			}
+		}
+	}
 }

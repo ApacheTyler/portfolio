@@ -1,6 +1,71 @@
-.foo {
-  color: green; }
-  .foo .bar {
-    font-family: sans-serif; }
-  .foo .baz {
-    color: black; }
+/**Grey**/
+/**Yellow**/
+/**Green**/
+/**Blue**/
+/**Pink**/
+/**Purple**/
+/**White**/
+.button span {
+  color: #2A2A2A; }
+
+.md-raised.purple {
+  background-color: #660066 !important; }
+
+.md-raised.pink {
+  background-color: #CC00CC !important; }
+  .md-raised.pink span {
+    color: #EBEBEB !important; }
+
+.md-raised.blue {
+  background-color: #0066CC !important; }
+
+.md-raised.yellow {
+  background-color: #f8c7a9 !important; }
+
+.md-raised.green {
+  background-color: #009933 !important; }
+  .md-raised.green span {
+    color: #EBEBEB !important; }
+
+.md-fab.purple {
+  background-color: #660066 !important; }
+
+.md-fab.pink {
+  background-color: #CC00CC !important; }
+  .md-fab.pink span {
+    color: #EBEBEB !important; }
+
+.md-fab.blue {
+  background-color: #0066CC !important; }
+
+.md-fab.yellow {
+  background-color: #f8c7a9 !important; }
+
+.md-fab.green {
+  background-color: #009933 !important; }
+  .md-fab.green span {
+    color: #EBEBEB !important; }
+
+.nav .md-accent.blue span {
+  color: rgba(133, 255, 255, 0.5); }
+
+.nav .md-accent.blue.selected span {
+  color: #85ffff; }
+
+.nav .md-accent.pink span {
+  color: rgba(238, 187, 238, 0.7); }
+
+.nav .md-accent.pink.selected span {
+  color: #eebbee; }
+
+.nav .md-accent.yellow span {
+  color: rgba(248, 199, 169, 0.7); }
+
+.nav .md-accent.yellow.selected span {
+  color: #f8c7a9; }
+
+.nav .md-accent.green span {
+  color: rgba(201, 248, 169, 0.7); }
+
+.nav .md-accent.green.selected span {
+  color: #c9f8a9; }

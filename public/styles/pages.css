@@ -1,10 +1,159 @@
-.foo {
-  color: green; }
-  .foo .bar {
-    font-family: sans-serif; }
-  .foo .baz {
-    color: black; }
+/**Grey**/
+/**Yellow**/
+/**Green**/
+/**Blue**/
+/**Pink**/
+/**Purple**/
+/**White**/
+/**Font families**/
+/**Font weights**/
+/**Font sizes**/
+/**Letter Spacing**/
+/**Grey**/
+/**Yellow**/
+/**Green**/
+/**Blue**/
+/**Pink**/
+/**Purple**/
+/**White**/
+.button span {
+  color: #2A2A2A; }
+
+.md-raised.purple {
+  background-color: #660066 !important; }
+
+.md-raised.pink {
+  background-color: #CC00CC !important; }
+  .md-raised.pink span {
+    color: #EBEBEB !important; }
+
+.md-raised.blue {
+  background-color: #0066CC !important; }
+
+.md-raised.yellow {
+  background-color: #f8c7a9 !important; }
+
+.md-raised.green {
+  background-color: #009933 !important; }
+  .md-raised.green span {
+    color: #EBEBEB !important; }
+
+.md-fab.purple {
+  background-color: #660066 !important; }
+
+.md-fab.pink {
+  background-color: #CC00CC !important; }
+  .md-fab.pink span {
+    color: #EBEBEB !important; }
+
+.md-fab.blue {
+  background-color: #0066CC !important; }
+
+.md-fab.yellow {
+  background-color: #f8c7a9 !important; }
+
+.md-fab.green {
+  background-color: #009933 !important; }
+  .md-fab.green span {
+    color: #EBEBEB !important; }
+
+.nav .md-accent.blue span {
+  color: rgba(133, 255, 255, 0.5); }
+
+.nav .md-accent.blue.selected span {
+  color: #85ffff; }
+
+.nav .md-accent.pink span {
+  color: rgba(238, 187, 238, 0.7); }
+
+.nav .md-accent.pink.selected span {
+  color: #eebbee; }
+
+.nav .md-accent.yellow span {
+  color: rgba(248, 199, 169, 0.7); }
+
+.nav .md-accent.yellow.selected span {
+  color: #f8c7a9; }
+
+.nav .md-accent.green span {
+  color: rgba(201, 248, 169, 0.7); }
+
+.nav .md-accent.green.selected span {
+  color: #c9f8a9; }
+
+/**Grey**/
+/**Yellow**/
+/**Green**/
+/**Blue**/
+/**Pink**/
+/**Purple**/
+/**White**/
+/**Primary colors**/
+/**Active Colors**/
+.selected.yellow {
+  color: #f8c7a9; }
+
+.selected.green {
+  color: #c9f8a9; }
+
+.selected.pink {
+  color: #eebbee; }
+
+.selected.blue {
+  color: #85ffff; }
+
+/**Inactive Colors**/
+.yellow {
+  color: rgba(248, 199, 169, 0.7); }
+
+.green {
+  color: rgba(201, 248, 169, 0.7); }
+
+.pink {
+  color: rgba(238, 187, 238, 0.7); }
+
+.blue {
+  color: rgba(133, 255, 255, 0.5); }
+
+.transparent-grey {
+  color: rgba(0, 0, 0, 0.6); }
+
+.opaque-grey {
+  color: rgba(0, 0, 0, 0.9); }
+
+/**Whites**/
+/**Font families**/
+/**Font weights**/
+/**Font sizes**/
+/**Letter Spacing**/
+/** Default **/
+/** Headers **/
+/**Default tag fonts**/
+/** Special text **/
+.cta {
+  font-family: "Lato", sans-serif;
+  font-size: 4.75em;
+  font-weight: 600;
+  letter-spacing: 10px; }
+
+.sub-text {
+  font-size: 0.8em;
+  font-weight: 300; }
 
 /* No files to import found in molecules//* */
 /* No files to import found in organisms//* */
 /* No files to import found in layouts//* */
+.canvas {
+  width: 100%;
+  height: 100%;
+  padding: 10px; }
+  .canvas.grey {
+    background-color: rgba(0, 0, 0, 0.6); }
+  .canvas i {
+    font-size: 2em; }
+
+.nav {
+  background-color: #2A2A2A; }
+
+hr {
+  border-top: 1px solid black; }

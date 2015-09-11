@@ -1,0 +1,135 @@
+<div>
+	<h1>
+		Atoms
+	</h1>
+
+	<h2>
+		Colors
+	</h2>
+
+	<div class="canvas grey">
+		<div data-ng-repeat="color in StyleGuide.colors">
+			<div data-ng-class="color">
+				{{color}}
+			</div>
+		</div>
+	</div>
+
+	<hr />
+
+	<h2>
+		Headers
+	</h2>
+
+	<div class="canvas">
+		<h1>
+			Header 1
+		</h1>
+		<h2>
+			Header 2
+		</h2>
+		<h3>
+			Header 3
+		</h3>
+	</div>
+
+	<hr />
+
+	<h2>
+		Text
+	</h2>
+	<div class="canvas">
+		<div>
+			Normal
+		</div>
+		 <div data-ng-repeat="text in StyleGuide.text">
+			<div data-ng-class="text">
+				{{text}}
+			</div>
+		</div> 
+	</div>
+
+	<hr />
+
+	<h2>Icons</h2>
+	<div class="canvas">
+		<p>
+			fa-github
+		</p>
+		<i class="fa fa-github"></i>
+		<p>
+			fa-linkedin
+		</p>
+		<i class="fa fa-linkedin"></i>
+		<p>
+			fa-facebook-f
+		</p>
+		<i class="fa fa-facebook-f"></i>
+		<p>
+			fa-bars
+		</p>
+		<i class="fa fa-bars"></i>
+	</div>
+
+	<hr />
+
+	<h2>
+		Buttons
+	</h2>
+	<div class="canvas" layout-align="center center">
+		<h3>
+			Regular Buttons
+		</h3>
+		<md-button>md-button</md-button>
+		<md-button md-ink-ripple="#0066CC" class="button md-accent">Blue</md-button>
+		<md-button md-ink-ripple="#F8C7A9" class="button md-accent">Yellow</md-button>
+		<md-button md-ink-ripple="#660066" class="button md-accent">Purple</md-button>
+		<md-button md-ink-ripple="#EEBBEE" class="button md-accent">Pink</md-button>
+		<h3>
+			Raised Buttons
+		</h3>
+		<md-button class="md-raised green">Green</md-button>
+		<md-button class="md-raised pink">Pink</md-button>
+		<h3>
+			Raised Primary Buttons
+		</h3>
+		<md-button class="md-raised md-primary purple">Purple</md-button>
+		<md-button class="md-raised md-primary blue">Blue</md-button>
+		<h3>
+			FAB buttons
+		</h3>
+		<md-button class="md-fab blue" md-ink-ripple aria-label="blue md-fab button">Blue</md-button>
+		<md-button class="md-fab purple" md-ink-ripple aria-label="blue md-fab button">Purple</md-button>
+		<md-button class="md-fab green" md-ink-ripple aria-label="blue md-fab button">Green</md-button>
+		<md-button class="md-fab pink" md-ink-ripple aria-label="blue md-fab button">Pink</md-button>
+		<h3>
+			Icon buttons
+		</h3>
+		<md-button class="md-icon-button" aria-label="Menu">
+			<md-icon md-font-icon="fa fa-bars"></md-icon>
+      	</md-button>
+		<md-button class="md-icon-button" aria-label="Github">
+			<md-icon md-font-icon="fa fa-github"></md-icon>
+      	</md-button>
+		<md-button class="md-icon-button" aria-label="Linked In">
+			<md-icon md-font-icon="fa fa-linkedin"></md-icon>
+      	</md-button>
+		<md-button class="md-icon-button" aria-label="Facebook">
+			<md-icon md-font-icon="fa fa-facebook-f"></md-icon>
+      	</md-button>
+		<h3>
+			Nav buttons
+		</h3>
+		<div class="nav">
+			<md-button md-ink-ripple="#0066CC" class="md-accent blue">Blue</md-button>
+			<md-button md-ink-ripple="#0066CC" class="md-accent blue selected">Selected Blue</md-button>
+			<md-button md-ink-ripple="#F8C7A9" class="md-accent yellow">Yellow</md-button>
+			<md-button md-ink-ripple="#F8C7A9" class="md-accent yellow selected">Selected Yellow</md-button>
+			<md-button md-ink-ripple="#C9F8A9" class="md-accent green">Green</md-button>
+			<md-button md-ink-ripple="#C9F8A9" class="md-accent green selected">Selected Green</md-button>
+			<md-button md-ink-ripple="#EEBBEE" class="md-accent pink">Pink</md-button>
+			<md-button md-ink-ripple="#EEBBEE" class="md-accent pink selected">Selected Pink</md-button>
+		</div>
+	</div>
+</div>
+
