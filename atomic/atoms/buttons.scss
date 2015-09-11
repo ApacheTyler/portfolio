@@ -1,9 +1,55 @@
-.foo{
-  color: green;
-  .bar{
-    font-family: sans-serif;
-  }
-  .baz{
-    color: black;
-  }
+@import '../variables/colors';
+
+/**Angular material fix**/
+.md-ripple-container{
+	position: static;
 }
+
+.md-raised{
+	&.purple{
+		background-color: $button-purple !important;
+	}
+	&.pink{
+		background-color: $button-pink !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+	&.blue{
+		background-color: $button-blue !important;
+	}
+	&.yellow{
+		background-color: $selected-yellow !important;
+	}
+	&.green{
+		background-color: $button-green !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+}
+
+.md-fab{
+	&.purple{
+		background-color: $button-purple !important;
+	}
+	&.pink{
+		background-color: $button-pink !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+	&.blue{
+		background-color: $button-blue !important;
+	}
+	&.yellow{
+		background-color: $selected-yellow !important;
+	}
+	&.green{
+		background-color: $button-green !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+}
+

@@ -1,0 +1,41 @@
+/**Grey**/
+/**Yellow**/
+/**Green**/
+/**Blue**/
+/**Pink**/
+/**Purple**/
+/**White**/
+/**Primary colors**/
+/**Active Colors**/
+.selected.yellow {
+  color: #f8c7a9; }
+
+.selected.green {
+  color: #c9f8a9; }
+
+.selected.pink {
+  color: #eebbee; }
+
+.selected.blue {
+  color: #85ffff; }
+
+/**Inactive Colors**/
+.yellow {
+  color: rgba(248, 199, 169, 0.7); }
+
+.green {
+  color: rgba(201, 248, 169, 0.7); }
+
+.pink {
+  color: rgba(238, 187, 238, 0.7); }
+
+.blue {
+  color: rgba(133, 255, 255, 0.5); }
+
+.transparent-grey {
+  color: rgba(0, 0, 0, 0.6); }
+
+.opaque-grey {
+  color: rgba(0, 0, 0, 0.9); }
+
+/**Whites**/

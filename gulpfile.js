@@ -3,6 +3,8 @@ var gulp = require('gulp');
 
 /**Dev Server **/
 var server = require('gulp-live-server');
+var DevServer = server('server.js',undefined, false);
+//livereload
 var livereload = require('gulp-livereload');
 
 /** Plug-ins **/
@@ -15,12 +17,27 @@ var sassGlobbing = require('gulp-css-globbing');
 var sassSrc = ['./atomic/*.scss', './atomic/**/*.scss'];
 var cssDest = './public/styles/';
 //Javascript
-var jsSrc = ['public/js/*.js', 'public/modules/**/*.js']
+var jsSrc = ['public/js/*.js', 'public/modules/**/*.js', 'public/modules/**/*.html']
 
 //Coffee
 /**Do I want to use coffee? **/
 
 gulp.task('default', ['watch', 'server']);
+
+gulp.task('server', function(){
+  DevServer.start();
+});
+
+gulp.task('watch', function () {
+  livereload.listen();
+  gulp.watch(sassSrc, ['sass']);
+  gulp.watch(jsSrc, ['javascript']);
+});
+
+gulp.task('javascript', function(){
+  gulp.src(jsSrc)
+    .pipe(livereload());
+});
 
 gulp.task('sass', function () {
   console.log('Sass compile -- ' + logTime())
@@ -31,22 +48,6 @@ gulp.task('sass', function () {
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(cssDest))
     .pipe(livereload());
-});
-
-gulp.task('server', function(){
-  var DevServer = server('server.js',undefined, false);
-  DevServer.start();
-});
-
-gulp.task('javascript', function(){
-  gulp.src(jsSrc)
-    .pipe(livereload());
-});
-
-gulp.task('watch', function () {
-  livereload.listen();
-  gulp.watch(sassSrc, ['sass']);
-  gulp.watch(jsSrc, ['javascript']);
 });
 
 //Build utilities

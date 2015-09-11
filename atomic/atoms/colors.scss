@@ -1,0 +1,48 @@
+@import '../variables/colors';
+
+/**Primary colors**/
+
+/**Active Colors**/
+.selected{
+  &.yellow{
+    color: $selected-yellow;
+  }
+
+  &.green{
+    color: $selected-green;
+  }
+
+  &.pink{
+    color: $selected-pink;
+  }
+
+  &.blue{
+    color: $selected-blue;
+  }
+}
+/**Inactive Colors**/
+.yellow{
+  color: $faded-yellow;
+}
+
+.green{
+  color: $faded-green;
+}
+
+.pink{
+  color: $faded-pink;
+}
+
+.blue{
+  color: $faded-blue;
+}
+
+.transparent-grey{
+  color: $transparent-grey;
+}
+
+.opaque-grey{
+  color: $opaque-grey;
+}
+
+/**Whites**/

@@ -1,0 +1,100 @@
+<div>
+	<h1>
+		Atoms
+	</h1>
+
+	<h2>
+		Colors
+	</h2>
+
+	<div class="canvas grey">
+		<div data-ng-repeat="color in StyleGuide.colors">
+			<div data-ng-class="color">
+				{{color}}
+			</div>
+		</div>
+	</div>
+
+	<hr />
+
+	<h2>
+		Headers
+	</h2>
+
+	<div class="canvas">
+		<h1>
+			Header 1
+		</h1>
+		<h2>
+			Header 2
+		</h2>
+		<h3>
+			Header 3
+		</h3>
+	</div>
+
+	<hr />
+
+	<h2>
+		Text
+	</h2>
+	<div class="canvas">
+		<div>
+			Normal
+		</div>
+		 <div data-ng-repeat="text in StyleGuide.text">
+			<div data-ng-class="text">
+				{{text}}
+			</div>
+		</div> 
+	</div>
+
+	<hr />
+
+	<h2>Icons</h2>
+	<div class="canvas">
+		<p>
+			fa-github
+		</p>
+		<i class="fa fa-github"></i>
+		<p>
+			fa-linkedin
+		</p>
+		<i class="fa fa-linkedin"></i>
+		<p>
+			fa-facebook-f
+		</p>
+		<i class="fa fa-facebook-f"></i>
+		<p>
+			fa-bars
+		</p>
+		<i class="fa fa-bars"></i>
+	</div>
+
+	<hr />
+
+	<h2>
+		Buttons
+	</h2>
+	<div class="canvas" layout-align="center center">
+		<h3>
+			Regular Buttons
+		</h3>
+		<md-button>md-button</md-button>
+		<h3>
+			Raised Buttons
+		</h3>
+		<md-button class="md-raised green">Green</md-button>
+		<md-button class="md-raised pink">Pink</md-button>
+		<h3>
+			Raised Primary Buttons
+		</h3>
+		<md-button class="md-raised md-primary purple">Purple</md-button>
+		<md-button class="md-raised md-primary blue">Blue</md-button>
+		<h3>
+			FAB buttons
+		</h3>
+		<md-button class="md-fab blue" aria-label="boo!">B</md-button>
+	</div>
+</div>
+

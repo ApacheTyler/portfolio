@@ -1,6 +1,48 @@
-.foo {
-  color: green; }
-  .foo .bar {
-    font-family: sans-serif; }
-  .foo .baz {
-    color: black; }
+/**Grey**/
+/**Yellow**/
+/**Green**/
+/**Blue**/
+/**Pink**/
+/**Purple**/
+/**White**/
+/**Angular material fix**/
+.md-ripple-container {
+  position: static; }
+
+.md-raised.purple {
+  background-color: #660066 !important; }
+
+.md-raised.pink {
+  background-color: #CC00CC !important; }
+  .md-raised.pink span {
+    color: #EBEBEB !important; }
+
+.md-raised.blue {
+  background-color: #0066CC !important; }
+
+.md-raised.yellow {
+  background-color: #f8c7a9 !important; }
+
+.md-raised.green {
+  background-color: #009933 !important; }
+  .md-raised.green span {
+    color: #EBEBEB !important; }
+
+.md-fab.purple {
+  background-color: #660066 !important; }
+
+.md-fab.pink {
+  background-color: #CC00CC !important; }
+  .md-fab.pink span {
+    color: #EBEBEB !important; }
+
+.md-fab.blue {
+  background-color: #0066CC !important; }
+
+.md-fab.yellow {
+  background-color: #f8c7a9 !important; }
+
+.md-fab.green {
+  background-color: #009933 !important; }
+  .md-fab.green span {
+    color: #EBEBEB !important; }
