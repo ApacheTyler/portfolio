@@ -97,4 +97,52 @@
 			}
 		}
 	}
+
+.md-raised{
+	&.purple{
+		background-color: $button-purple !important;
+	}
+	&.pink{
+		background-color: $button-pink !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+	&.blue{
+		background-color: $button-blue !important;
+	}
+	&.yellow{
+		background-color: $selected-yellow !important;
+	}
+	&.green{
+		background-color: $button-green !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
 }
+
+.md-fab{
+	&.purple{
+		background-color: $button-purple !important;
+	}
+	&.pink{
+		background-color: $button-pink !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+	&.blue{
+		background-color: $button-blue !important;
+	}
+	&.yellow{
+		background-color: $selected-yellow !important;
+	}
+	&.green{
+		background-color: $button-green !important;
+		span{
+			color: $faded-white !important;
+		}
+	}
+}
+
