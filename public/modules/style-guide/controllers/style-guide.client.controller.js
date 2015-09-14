@@ -1,7 +1,6 @@
-angular.module('StyleGuide').controller('StyleGuideController', ['$scope', '$stateParams', 'Atoms', '$log',
-	function($scope, $stateParams, Atoms, $log) {
-		this.colors = Atoms.colors;
-		this.text = Atoms.text;
-		$log.log(Atoms.text);
+angular.module('StyleGuide').controller('StyleGuideController', ['$state', 'Atoms', '$log',
+	function($state, Atoms, $log) {
+		this.currentState = $state.current.name;
+		$log.log(this.currentState);
 	}
 ]);
