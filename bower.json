@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Tyler Freeman, Personal Portfolio",
   "dependencies": {
-    "bootstrap": "~3",
     "angular": "^1.4.x",
     "angular-resource": "^1.4.x",
     "angular-mocks": "^1.4.x",
