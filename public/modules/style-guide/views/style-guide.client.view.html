@@ -1,11 +1,11 @@
 
 <div id="style-guide" class="style-guide-container" ng-switch="StyleGuide.currentState">
-	<styleguide-atoms ng-switch-when="atoms"></styleguide-atoms>
-	<styleguide-molecules ng-switch-when="molecules"></styleguide-molecules>
-	<styleguide-atoms ng-switch-when="organisms"></styleguide-atoms>
-	<styleguide-atoms ng-switch-when="layouts"></styleguide-atoms>
-	<styleguide-atoms ng-switch-when="pages"></styleguide-atoms>
-	<div class="style-guide-all" ng-switch-default>
+	<styleguide-atoms ng-switch-when="atoms" class="style-guide-element"></styleguide-atoms>
+	<styleguide-molecules ng-switch-when="molecules" class="style-guide-element"></styleguide-molecules>
+	<styleguide-atoms ng-switch-when="organisms" class="style-guide-element"></styleguide-atoms>
+	<styleguide-atoms ng-switch-when="layouts" class="style-guide-element"></styleguide-atoms>
+	<styleguide-atoms ng-switch-when="pages" class="style-guide-element"></styleguide-atoms>
+	<div class="style-guide-all style-guide-element" ng-switch-default>
 		<styleguide-atoms></styleguide-atoms>
 		<styleguide-molecules></styleguide-molecules>
 	</div>
