@@ -1,0 +1,10 @@
+<div class="nav">
+	<md-button md-ink-ripple="#0066CC" class="md-accent blue">About</md-button>
+	<md-button md-ink-ripple="#F8C7A9" class="md-accent yellow">Resume</md-button>
+	<md-button md-ink-ripple="#C9F8A9" class="md-accent green">Work</md-button>
+	<md-button md-ink-ripple="#EEBBEE" class="md-accent pink">Experience</md-button>
+	<md-button md-ink-ripple="#0066CC" class="md-accent blue">Contact</md-button>
+</div>
+<div class="nav">
+    <md-button ng-repeat="menuItem in HeaderNav.menu.items" class="md-accent blue" ui-route="menuItem.uiRoute">{{menuItem.title}}</md-button>
+</div>

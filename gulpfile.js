@@ -19,10 +19,12 @@ var cssDest = './public/styles/';
 //Javascript
 var jsSrc = ['public/js/*.js', 'public/modules/**/*.js', 'public/modules/**/*.html']
 
-//Coffee
-/**Do I want to use coffee? **/
+/**Testing Utilities*/
+//Karma
+var TestServer = require('karma').Server;
 
 gulp.task('default', ['watch', 'server']);
+gulp.task('tdd-workflow', ['watch-tdd']);
 
 gulp.task('server', function(){
   DevServer.start();
@@ -32,6 +34,10 @@ gulp.task('watch', function () {
   livereload.listen();
   gulp.watch(sassSrc, ['sass']);
   gulp.watch(jsSrc, ['javascript']);
+});
+
+gulp.task('watch-tdd', function () {
+   gulp.watch(jsSrc, ['tdd']); 
 });
 
 gulp.task('javascript', function(){
@@ -48,6 +54,27 @@ gulp.task('sass', function () {
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(cssDest))
     .pipe(livereload());
+});
+
+/**
+ * Run test once and exit
+ */
+gulp.task('test', function (done) {
+  new TestServer({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: true
+  }, done).start();
+});
+
+/**
+ * Watch for file changes and re-run tests on each change
+ */
+gulp.task('tdd', function (done) {
+  new TestServer({
+    configFile: __dirname + '/karma.conf.js'
+  }, function () {
+      done();
+  }).start();
 });
 
 //Build utilities
